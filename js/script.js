@@ -10,35 +10,21 @@ document.addEventListener("DOMContentLoaded", function () {
           image: "images/DeadFellaz5377.png",
           name: "DeadFellaz",
           number: "#5377",
-          url: "https://etherscan.io/nft/0x2acab3dea77832c09420663b0e1cb386031ba17b/5377"
+          url: "DeadFellaz5377.html"
         },
         {
           chain: "Ethereum",
           image: "images/TNT1977.png",
           name: "The Noosphere Tribe",
           number: "#1977",
-          url: "https://etherscan.io/nft/0x358cb4411bb8e1896efe07a50a52cc192e3c02c4/1977"
+          url: "TNT1977.html"
         },
         {
           chain: "Ape",
           image: "images/Ghost32697.png",
           name: "Ghost Machine",
           number: "#32697",
-          url: "https://apescan.io/nft/0x593807746eecfa7e5dbe13d028b9bf8b71972c19/32697"
-        },
-        {
-          chain: "Ape",
-          image: "images/Ghost32697.png",
-          name: "Ghost Machine",
-          number: "#32697",
-          url: "https://apescan.io/nft/0x593807746eecfa7e5dbe13d028b9bf8b71972c19/32697"
-        },
-        {
-          chain: "Ape",
-          image: "images/Ghost32697.png",
-          name: "Ghost Machine",
-          number: "#32697",
-          url: "https://apescan.io/nft/0x593807746eecfa7e5dbe13d028b9bf8b71972c19/32697"
+          url: "Ghost32697.html"
         }
       ];
   
