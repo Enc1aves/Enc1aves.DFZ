@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog | My Web3 Persona</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="archive.html">Archive</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="blog">
+      <h1>Blog</h1>
+
+      <div class="filters">
+        <label for="category-select">Browse by category:</label>
+        <select id="category-select">
+          <option value="all">All</option>
+          <option value="web3">Navigating Web3</option>
+          <option value="communities">Web3 Communities</option>
+          <option value="tech">Tech</option>
+          <option value="gaming">Gaming</option>
+          <option value="miniatures">Miniatures</option>
+        </select>
+      </div>
+
+      <div id="blog-posts" class="blog-post-list">
+        <!-- Blog previews injected by script.js -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Web3 Persona. All rights reserved.</p>
+  </footer>
+</body>
+</html>

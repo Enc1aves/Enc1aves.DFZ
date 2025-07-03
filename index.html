@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Web3 Persona</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.6.1/web3.min.js"></script>
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="archive.html">Archive</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="profile">
+      <img src="images/IMG_5277.png" alt="DeadFellaz Profile Picture" class="profile-pic" />
+      <h1>@MyWeb3Alias</h1>
+      <p class="bio">Explorer of the metaverse, NFT hoarder, decentralization advocate. Powered by code and caffeine.</p>
+      <p class="location">🌍 Melbourne, Australia</p>
+
+      <div class="wallets">
+        <h2>Donations Address</h2>
+        <div class="wallet-icons">
+          <a href="https://etherscan.io/address/0xYourEthAddress" target="_blank"><img src="images/eth_icon.png" alt="Ethereum"/></a>
+          <a href="https://explorer.abstract.xyz/address/YourAbstractAddress" target="_blank"><img src="images/abstract_icon.png" alt="Abstract"/></a>
+          <a href="https://www.blockchain.com/btc/address/YourBTCAddress" target="_blank"><img src="images/btc_icon.png" alt="Bitcoin"/></a>
+          <a href="https://cronoscan.com/address/YourCronosAddress" target="_blank"><img src="images/cronos_icon.png" alt="Cronos"/></a>
+          <a href="https://solscan.io/account/YourSolanaAddress" target="_blank"><img src="images/sol_icon.png" alt="Solana"/></a>
+        </div>
+      </div>
+
+      <div class="nft-gallery">
+        <h2>Your NFTs</h2>
+        <div id="nfts">
+          <!-- JavaScript will load NFT content here -->
+        </div>
+      </div>
+
+      <div class="social-links">
+        <a href="https://x.com/yourprofile" target="_blank"><img src="images/x_icon.png" alt="X"/></a>
+        <a href="https://discord.com/users/yourid" target="_blank"><img src="images/discord_icon.png" alt="Discord"/></a>
+        <a href="https://twitch.tv/yourchannel" target="_blank"><img src="images/twitch_icon.png" alt="Twitch"/></a>
+        <a href="https://youtube.com/yourchannel" target="_blank"><img src="images/youtube_icon.png" alt="YouTube"/></a>
+      </div>
+
+      <div class="twitch-live">
+        <iframe
+          src="https://player.twitch.tv/?channel=yourchannel&parent=yourdomain.com"
+          frameborder="0"
+          allowfullscreen="true"
+          scrolling="no"
+          height="378"
+          width="620">
+        </iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Web3 Persona. All rights reserved.</p>
+  </footer>
+</body>
+</html>

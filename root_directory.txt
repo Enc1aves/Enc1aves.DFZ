@@ -1,0 +1,14 @@
+/ (root directory)
+├── index.html              → Home/Profile Page
+├── blog.html               → Blog landing page (with categories & tags)
+├── post-template.html      → Individual blog post layout
+├── nft.html                → NFT detail template page
+├── about.html              → About Me page
+├── archive.html            → Chronological post archive
+├── contact.html            → Contact page
+├── css/
+│   └── styles.css          → Centralized styling
+├── js/
+│   └── script.js           → Handles dynamic content, NFT APIs, Twitch status
+├── images/
+│   └── (profile pic, icons, NFT thumbnails)
